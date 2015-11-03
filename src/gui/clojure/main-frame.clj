@@ -1,3 +1,4 @@
-('use (seesaw core))
+(ns siglab.gui)
+(use '(seesaw core))
 
-(frame :title "Siglab", :on-close :exit, :content "Welcome to siglab")
+(show! (frame :title "Siglab", :on-close :exit, :content "Welcome to siglab"))
